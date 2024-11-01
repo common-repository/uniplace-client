@@ -1,0 +1,205 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-08-16 12:07+0300\n"
+"PO-Revision-Date: 2016-08-16 12:10+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: class.uniplace-installer.php:88
+msgid "Uniplace config page"
+msgstr "Страница настройки Uniplace"
+
+#: class.uniplace-installer.php:89
+msgid "Uniplace"
+msgstr "Uniplace"
+
+#: class.uniplace-installer.php:103
+msgid "Settings"
+msgstr "Настройки"
+
+#: class.uniplace-installer.php:140
+msgid "Hacker?"
+msgstr "Хакер, что ли?"
+
+#: class.uniplace-installer.php:211
+msgid "Success: code files installed"
+msgstr "Успешно: файлы php-клиента установлены"
+
+#: class.uniplace-installer.php:214
+msgid "Error: code files not installed"
+msgstr "Ошибка: файлы php-клиента НЕ установлены"
+
+#: class.uniplace-installer.php:218 class.uniplace-installer.php:274
+#: class.uniplace-installer.php:328
+msgid ""
+"Error: Uniplace site hash is empty. Please enter the Uniplace site hash."
+msgstr "Ошибка: хеш сайта Uniplace пуст. Пожалуйста, введите хеш сайта."
+
+#: class.uniplace-installer.php:252
+#, php-format
+msgid ""
+"Warning: Can't change folder permissions to 0755 and work may be incorrect. "
+"Please change folder permissions to 0755 %s"
+msgstr ""
+"Внимание: Не смогли установить права на папку php-клиента Uniplace 0755 и "
+"работа может быть некорректной. Пожалуйста, установите права на папку 0755 %s"
+
+#: class.uniplace-installer.php:265
+msgid ""
+"Error: Can't create directory with Uniplace client. Please check parent "
+"folder permissions"
+msgstr ""
+"Ошибка: Не смогли создать папку php-клиента Uniplace. Пожалуйста, проверьте "
+"права на папку родителя."
+
+#: class.uniplace-installer.php:268
+#, php-format
+msgid ""
+"Error: Directory with Uniplace client exists already. Please delete this "
+"folder %s"
+msgstr ""
+"Ошибка: Папка с php клиентом Uniplace уже существует. Пожалуйста, удалите "
+"эту папку %s"
+
+#: class.uniplace-installer.php:271
+#, php-format
+msgid ""
+"Error: Can't create config file - %s Please check permissions for folder or "
+"this file if this file exists already."
+msgstr ""
+"Ошибка: Не смогли создать файл конфигурации - %s. Пожалуйста, проверьте "
+"права доступа к папке или файлу, если такой файл уже существует."
+
+#: class.uniplace-installer.php:323
+#, php-format
+msgid ""
+"Warning: Can't change config file permissions to 0755 and work may be "
+"incorrect. Please change config file permissions to 0755 %s"
+msgstr ""
+"Внимание: не смогли установить права доступа 0755 к файлу конфигурации и "
+"работа может быть некорректной. Пожалуйста смените правадоступа к файлу "
+"конфигурации на 0755 %s"
+
+#: class.uniplace-installer.php:342
+msgid "Uniplace settings."
+msgstr "Настройки Uniplace"
+
+#: class.uniplace-installer.php:350
+msgid "Site hash ( in Uniplace system ):"
+msgstr "Хеш сайта (в системе Uniplace)"
+
+#: class.uniplace-installer.php:354
+msgid "Anchor text encoding:"
+msgstr "Кодировка выводимых ссылок"
+
+#: class.uniplace-installer.php:360
+msgid "Save"
+msgstr "Сохранить"
+
+#: class.uniplace-installer.php:369
+#, php-format
+msgid ""
+"After setting up, please, add %s\"Uniplace Widget\"%s in sidebar your active "
+"theme on \"Appearance\" - \"Widgets\"."
+msgstr ""
+"После настройки, пожалуйста, добавьте %s\"Uniplace Widget\"%s в боковую "
+"панель Вашей активной темы сайта \"Внешний вид\" - \"Виджеты\""
+
+#: class.uniplace-installer.php:370
+#, php-format
+msgid ""
+"If your active theme has not sidebar, you can add following %scode%s to your "
+"template. For example in footer.php before closing tag &lt;/body&gt;:"
+msgstr ""
+"Если Ваша активная тема  сайта не имеет боковых панелей, Вы можете добавить "
+"следующий %sкод%s в Ваш шаблон. Например, в файл footer.php до закрывающего "
+"тега &lt;/body&gt;:"
+
+#: class.uniplace-installer.php:372
+msgid "You can also add links to any article using the following shortcode:"
+msgstr ""
+"Вы также можете добавить блок ссылок Uniplace в любую статью, использую "
+"следующий шорткод:"
+
+#: class.uniplace-widget.php:21
+msgid "A widget that displays Uniplace links"
+msgstr "Виджет, который выводит блок с ссылками Uniplace"
+
+#: class.uniplace-widget.php:23
+msgid "Uniplace Widget"
+msgstr "Uniplace виджет"
+
+#: class.uniplace-widget.php:57
+msgid "Please set your Uniplace site hash on settings page: "
+msgstr "Пожалуйста, установите хеш сайта Uniplace на странице настроек"
+
+#: class.uniplace-widget.php:62
+msgid "There are no options for this widget."
+msgstr ""
+
+#~ msgid ""
+#~ "Error: uniplace site hash is empty. Please enter the uniplace site hash."
+#~ msgstr "Ошибка: хеш сайта Uniplace пуст. Пожалуйста, введите хеш сайта."
+
+#~ msgid ""
+#~ "Error: Can't create directory with uniplace client. Please check parent "
+#~ "folder permissions"
+#~ msgstr ""
+#~ "Ошибка: Не смогли создать папку php-клиента Uniplace. Пожалуйста, "
+#~ "проверьте права на папку родителя."
+
+#~ msgid ""
+#~ "Error: Directory with uniplace client exists already. Please delete this "
+#~ "folder %s"
+#~ msgstr ""
+#~ "Ошибка: Папка с php клиентом Uniplace уже существует. Пожалуйста, удалите "
+#~ "эту папку %s"
+
+#~ msgid "Site hash ( in uniplace system ):"
+#~ msgstr "Хеш сайта (в системе Uniplace)"
+
+#~ msgid "A widget that displays uniplace links"
+#~ msgstr "Виджет, который выводит блок с ссылками Uniplace"
+
+#~ msgid "Please set your uniplace site hash on settings page: "
+#~ msgstr "Пожалуйста, установите хеш сайта Uniplace на странице настроек"
+
+#~ msgid ""
+#~ "Warning: Can't change folder permisions to 0755 and work may be "
+#~ "incorrect. Please change folder permisions to 0755 %s"
+#~ msgstr ""
+#~ "Внимание: Не смогли установить права на папку php-клиента uniplace 0755 и "
+#~ "работа может быть некорректной. Пожалуйста, установите права на папку 0755"
+
+#~ msgid ""
+#~ "Warning: Can't change folder permisions to 0755 and work may be "
+#~ "incorrect. Please change folder permisions to 0755 "
+#~ msgstr ""
+#~ "Внимание: Не смогли установить права на папку php-клиента uniplace 0755 и "
+#~ "работа может быть некорректной. Пожалуйста, установите права на папку 0755"
+
+#~ msgid ""
+#~ "Error: Can't create directory with uniplace client. Please check folder "
+#~ "permisions"
+#~ msgstr ""
+#~ "Ошибка: Не смогли создать папку php-клиента uniplace. Пожалуйста, "
+#~ "проверьте права на папку родителя."
+
+#~ msgid "Error: Directory with uniplace client exists already - "
+#~ msgstr "Ошибка: Папка с php-клиентом uniplace уже существует."
+
+#~ msgid "Error: Can't create config file - "
+#~ msgstr "Ошибка: не смогли создать файл конфигурации"
